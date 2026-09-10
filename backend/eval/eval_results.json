@@ -1,0 +1,669 @@
+{
+  "total": 50,
+  "coverage_pct": 100.0,
+  "accuracy_pct": 68.0,
+  "directional_errors": 0,
+  "hallucination_rate_pct": 0.0,
+  "results": [
+    {
+      "gene": "BRCA1",
+      "hgvs": "NC_000017.10:g.(41234593_41242960)_(41243050_41243451)del",
+      "ground_truth": "Pathogenic",
+      "predicted": "Pathogenic",
+      "criteria": [
+        "PVS1",
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "NC_000017.10:g.(41243050_41243451)_(41251898_41256138)del",
+      "ground_truth": "Pathogenic",
+      "predicted": "Pathogenic",
+      "criteria": [
+        "PVS1",
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "GRCh38/hg38 17q21.31(chr17:43057598-43068066)x1",
+      "ground_truth": "Likely Pathogenic",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.241_256del",
+      "ground_truth": "Pathogenic",
+      "predicted": "Pathogenic",
+      "criteria": [
+        "PVS1",
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "NM_007294.4(BRCA1):c.5152+6del",
+      "ground_truth": "VUS",
+      "predicted": "Pathogenic",
+      "criteria": [
+        "PVS1",
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.3306T>A",
+      "ground_truth": "VUS",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.4210C>A",
+      "ground_truth": "VUS",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.726_727del",
+      "ground_truth": "Pathogenic",
+      "predicted": "Pathogenic",
+      "criteria": [
+        "PVS1",
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.3114del",
+      "ground_truth": "Likely Pathogenic",
+      "predicted": "Pathogenic",
+      "criteria": [
+        "PVS1",
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "NM_007294.4(BRCA1):c.134+5del",
+      "ground_truth": "VUS",
+      "predicted": "Pathogenic",
+      "criteria": [
+        "PVS1",
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.5246_5248del",
+      "ground_truth": "VUS",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.4945_4946insTTTT",
+      "ground_truth": "Likely Pathogenic",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.451del",
+      "ground_truth": "Pathogenic",
+      "predicted": "Pathogenic",
+      "criteria": [
+        "PVS1",
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.661G>A",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.1014_1015delinsT",
+      "ground_truth": "Pathogenic",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "NM_007294.4(BRCA1):c.5332+84G>A",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.1314G>A",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.1671A>C",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.2214T>G",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "NM_007294.4(BRCA1):c.594-4A>T",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.3483A>G",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.5290C>T",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.4371A>T",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.4053G>A",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "c.3447A>G",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "NM_007294.3:c.5075_5277dup",
+      "ground_truth": "Likely Pathogenic",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA1",
+      "hgvs": "NM_007294.4(BRCA1):c.5467+200G>A",
+      "ground_truth": "Likely Benign",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.5078T>C",
+      "ground_truth": "VUS",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.2798_2799dup",
+      "ground_truth": "Pathogenic",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.323dup",
+      "ground_truth": "Pathogenic",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "GRCh38/hg38 13q13.1(chr13:32369782-32373167)x1",
+      "ground_truth": "Likely Pathogenic",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.4651dup",
+      "ground_truth": "Likely Pathogenic",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.7187T>G",
+      "ground_truth": "VUS",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.2753dup",
+      "ground_truth": "Pathogenic",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.1629_1632del",
+      "ground_truth": "Pathogenic",
+      "predicted": "Pathogenic",
+      "criteria": [
+        "PVS1",
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.4227A>G",
+      "ground_truth": "VUS",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.19G>C",
+      "ground_truth": "VUS",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.7358A>G",
+      "ground_truth": "VUS",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.6577G>T",
+      "ground_truth": "Pathogenic",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.4658del",
+      "ground_truth": "Pathogenic",
+      "predicted": "Pathogenic",
+      "criteria": [
+        "PVS1",
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.6065C>A",
+      "ground_truth": "Pathogenic",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.8108_8115delinsTATATAAATAAATAAATAAATATATATTTATTTATCTGAAATATCTA",
+      "ground_truth": "Pathogenic",
+      "predicted": "VUS",
+      "criteria": [
+        "PM2"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.10099G>A",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.5914G>A",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.1472C>T",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.3966C>A",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.9543G>A",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "NM_000059.4(BRCA2):c.8953+3A>T",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.3862A>C",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    },
+    {
+      "gene": "BRCA2",
+      "hgvs": "c.6594A>G",
+      "ground_truth": "Likely Benign",
+      "predicted": "Likely Benign",
+      "criteria": [
+        "PM2",
+        "BP6"
+      ],
+      "covered": true,
+      "directional_error": false
+    }
+  ],
+  "classes": [
+    "Pathogenic",
+    "Likely Pathogenic",
+    "VUS",
+    "Likely Benign",
+    "Benign"
+  ],
+  "confusion_matrix_grid": [
+    [
+      7,
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      5,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      19,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "confusion_matrix": {
+    "Pathogenic": {
+      "Pathogenic": 7,
+      "VUS": 7,
+      "Likely Pathogenic": 0,
+      "Likely Benign": 0,
+      "Benign": 0
+    },
+    "Likely Pathogenic": {
+      "VUS": 5,
+      "Pathogenic": 1,
+      "Likely Pathogenic": 0,
+      "Likely Benign": 0,
+      "Benign": 0
+    },
+    "VUS": {
+      "Pathogenic": 2,
+      "VUS": 8,
+      "Likely Pathogenic": 0,
+      "Likely Benign": 0,
+      "Benign": 0
+    },
+    "Likely Benign": {
+      "Likely Benign": 19,
+      "VUS": 1,
+      "Pathogenic": 0,
+      "Likely Pathogenic": 0,
+      "Benign": 0
+    },
+    "Benign": {
+      "Pathogenic": 0,
+      "Likely Pathogenic": 0,
+      "VUS": 0,
+      "Likely Benign": 0,
+      "Benign": 0
+    }
+  }
+}

@@ -1,0 +1,1010 @@
+[
+  {
+    "variation_id": "4887763",
+    "gene": "BRCA1",
+    "hgvs_name": "NC_000017.10:g.(41234593_41242960)_(41243050_41243451)del",
+    "cdna_change": "NC_000017.10:g.(41234593_41242960)_(41243050_41243451)del",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4887537",
+    "gene": "BRCA1",
+    "hgvs_name": "NC_000017.10:g.(41243050_41243451)_(41251898_41256138)del",
+    "cdna_change": "NC_000017.10:g.(41243050_41243451)_(41251898_41256138)del",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4886868",
+    "gene": "BRCA1",
+    "hgvs_name": "GRCh38/hg38 17q21.31(chr17:43057598-43068066)x1",
+    "cdna_change": "GRCh38/hg38 17q21.31(chr17:43057598-43068066)x1",
+    "classification": "Likely pathogenic",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4884209",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.241_256del (p.Gln81fs)",
+    "cdna_change": "c.241_256del",
+    "classification": "Pathogenic",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4883931",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.5152+6del",
+    "cdna_change": "NM_007294.4(BRCA1):c.5152+6del",
+    "classification": "Uncertain significance",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4883316",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.3306T>A (p.Asn1102Lys)",
+    "cdna_change": "c.3306T>A",
+    "classification": "Uncertain significance",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4883311",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.4210C>A (p.Leu1404Met)",
+    "cdna_change": "c.4210C>A",
+    "classification": "Uncertain significance",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4882953",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.726_727del (p.Ser242fs)",
+    "cdna_change": "c.726_727del",
+    "classification": "Pathogenic",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4880627",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.3114del (p.Ala1039fs)",
+    "cdna_change": "c.3114del",
+    "classification": "Likely pathogenic",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4880487",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.134+5del",
+    "cdna_change": "NM_007294.4(BRCA1):c.134+5del",
+    "classification": "VUS-high",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4880486",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.5246_5248del (p.Pro1749_Lys1750delinsGln)",
+    "cdna_change": "c.5246_5248del",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4879468",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.4945_4946insTTTT (p.Arg1649fs)",
+    "cdna_change": "c.4945_4946insTTTT",
+    "classification": "Likely pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4876137",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.451del (p.Ser151fs)",
+    "cdna_change": "c.451del",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4876134",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.661G>A (p.Ala221Thr)",
+    "cdna_change": "c.661G>A",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4876067",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.1014_1015delinsT (p.Lys338fs)",
+    "cdna_change": "c.1014_1015delinsT",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4871829",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.5332+84G>A",
+    "cdna_change": "NM_007294.4(BRCA1):c.5332+84G>A",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867742",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.1314G>A (p.Glu438=)",
+    "cdna_change": "c.1314G>A",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867733",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.1671A>C (p.Thr557=)",
+    "cdna_change": "c.1671A>C",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867726",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.2214T>G (p.Val738=)",
+    "cdna_change": "c.2214T>G",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867722",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.594-4A>T",
+    "cdna_change": "NM_007294.4(BRCA1):c.594-4A>T",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867717",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.3483A>G (p.Glu1161=)",
+    "cdna_change": "c.3483A>G",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867716",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.5290C>T (p.Leu1764=)",
+    "cdna_change": "c.5290C>T",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867713",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.4371A>T (p.Ser1457=)",
+    "cdna_change": "c.4371A>T",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867710",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.4053G>A (p.Leu1351=)",
+    "cdna_change": "c.4053G>A",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867686",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.3447A>G (p.Thr1149=)",
+    "cdna_change": "c.3447A>G",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4857230",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.3:c.5075_5277dup",
+    "cdna_change": "NM_007294.3:c.5075_5277dup",
+    "classification": "Likely pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4856951",
+    "gene": "BRCA1",
+    "hgvs_name": "NM_007294.4(BRCA1):c.5467+200G>A",
+    "cdna_change": "NM_007294.4(BRCA1):c.5467+200G>A",
+    "classification": "Likely benign",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4887945",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.5078T>C (p.Leu1693Pro)",
+    "cdna_change": "c.5078T>C",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4887439",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.2798_2799dup (p.Gly934fs)",
+    "cdna_change": "c.2798_2799dup",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4887223",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.323dup (p.Asn108fs)",
+    "cdna_change": "c.323dup",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4886817",
+    "gene": "BRCA2",
+    "hgvs_name": "GRCh38/hg38 13q13.1(chr13:32369782-32373167)x1",
+    "cdna_change": "GRCh38/hg38 13q13.1(chr13:32369782-32373167)x1",
+    "classification": "Likely pathogenic",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4886488",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.4651dup (p.Gln1551fs)",
+    "cdna_change": "c.4651dup",
+    "classification": "Likely pathogenic",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4885790",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.7187T>G (p.Leu2396Trp)",
+    "cdna_change": "c.7187T>G",
+    "classification": "Uncertain significance",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4884188",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.2753dup (p.Asn918fs)",
+    "cdna_change": "c.2753dup",
+    "classification": "Pathogenic",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4883747",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.1629_1632del (p.His543fs)",
+    "cdna_change": "c.1629_1632del",
+    "classification": "Pathogenic",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4882890",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.4227A>G (p.Leu1409=)",
+    "cdna_change": "c.4227A>G",
+    "classification": "Uncertain significance",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4879473",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.19G>C (p.Glu7Gln)",
+    "cdna_change": "c.19G>C",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4876232",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.7358A>G (p.Glu2453Gly)",
+    "cdna_change": "c.7358A>G",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4876165",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.6577G>T (p.Glu2193Ter)",
+    "cdna_change": "c.6577G>T",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4876161",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.4658del (p.Thr1553fs)",
+    "cdna_change": "c.4658del",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4876123",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.6065C>A (p.Ser2022Ter)",
+    "cdna_change": "c.6065C>A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4876090",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.8108_8115delinsTATATAAATAAATAAATAAATATATATTTATTTATCTGAAATATCTA (p.Thr2703_Ser2705delinsIleTyrLysTer)",
+    "cdna_change": "c.8108_8115delinsTATATAAATAAATAAATAAATATATATTTATTTATCTGAAATATCTA",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867893",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.10099G>A (p.Glu3367Lys)",
+    "cdna_change": "c.10099G>A",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867886",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.5914G>A (p.Ala1972Thr)",
+    "cdna_change": "c.5914G>A",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867885",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.1472C>T (p.Thr491Ile)",
+    "cdna_change": "c.1472C>T",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867884",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.3966C>A (p.Asn1322Lys)",
+    "cdna_change": "c.3966C>A",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867882",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.9543G>A (p.Met3181Ile)",
+    "cdna_change": "c.9543G>A",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867876",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.8953+3A>T",
+    "cdna_change": "NM_000059.4(BRCA2):c.8953+3A>T",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867875",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.3862A>C (p.Asn1288His)",
+    "cdna_change": "c.3862A>C",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867874",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.6594A>G (p.Glu2198=)",
+    "cdna_change": "c.6594A>G",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867870",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.135A>G (p.Glu45=)",
+    "cdna_change": "c.135A>G",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867869",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.7633G>C (p.Val2545Leu)",
+    "cdna_change": "c.7633G>C",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867855",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.5266G>T (p.Val1756Leu)",
+    "cdna_change": "c.5266G>T",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4867851",
+    "gene": "BRCA2",
+    "hgvs_name": "NM_000059.4(BRCA2):c.3248A>C (p.Asn1083Thr)",
+    "cdna_change": "c.3248A>C",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4886571",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.1654_1658dup (p.Lys554fs)",
+    "cdna_change": "c.1654_1658dup",
+    "classification": "Likely pathogenic",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4884076",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.2123_2127del (p.Ile708fs)",
+    "cdna_change": "c.2123_2127del",
+    "classification": "Pathogenic",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4876240",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.941_957del (p.Val314fs)",
+    "cdna_change": "c.941_957del",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4860120",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.1173_1195del (p.Gln391fs)",
+    "cdna_change": "c.1173_1195del",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4860118",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.1164_1219dup (p.Gln407delinsProGlyAsnArgSerLeuMetHisPheCysSerLeuTer)",
+    "cdna_change": "c.1164_1219dup",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4860115",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.1525_1535dup (p.Glu512fs)",
+    "cdna_change": "c.1525_1535dup",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4860108",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.1917del (p.Leu639fs)",
+    "cdna_change": "c.1917del",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4860107",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.303_304dup (p.Glu102fs)",
+    "cdna_change": "c.303_304dup",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4860099",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.3:c.760_761insSVA",
+    "cdna_change": "NM_000249.3:c.760_761insSVA",
+    "classification": "Likely pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4860092",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.107_112del (p.Ile36_Glu37del)",
+    "cdna_change": "c.107_112del",
+    "classification": "Likely pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4856779",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.3G>C (p.Met1Ile)",
+    "cdna_change": "c.3G>C",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4856732",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.306+1G>T",
+    "cdna_change": "NM_000249.4(MLH1):c.306+1G>T",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4854371",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.123T>A (p.Asp41Glu)",
+    "cdna_change": "c.123T>A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4849836",
+    "gene": "LRRFIP2",
+    "hgvs_name": "NC_000003.12:g.(?_37090007)_(37092144_?)del",
+    "cdna_change": "NC_000003.12:g.(?_37090007)_(37092144_?)del",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4848981",
+    "gene": "MLH1",
+    "hgvs_name": "NC_000003.11:g.(?_37035008)_(37035155_37038109)del",
+    "cdna_change": "NC_000003.11:g.(?_37035008)_(37035155_37038109)del",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4885413",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.117-97T>C",
+    "cdna_change": "NM_000249.4(MLH1):c.117-97T>C",
+    "classification": "Uncertain significance",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4882194",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.205A>G (p.Arg69Gly)",
+    "cdna_change": "c.205A>G",
+    "classification": "Uncertain significance",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4882105",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.116+156C>T",
+    "cdna_change": "NM_000249.4(MLH1):c.116+156C>T",
+    "classification": "Uncertain significance",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4873655",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.2187G>A (p.Leu729=)",
+    "cdna_change": "c.2187G>A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4871835",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.117-34A>T",
+    "cdna_change": "NM_000249.4(MLH1):c.117-34A>T",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4860125",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.1668T>C (p.Ser556=)",
+    "cdna_change": "c.1668T>C",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4860119",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.1923T>G (p.Leu641=)",
+    "cdna_change": "c.1923T>G",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4860114",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.1479T>C (p.Ala493=)",
+    "cdna_change": "c.1479T>C",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4860111",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.2085G>T (p.Ser695=)",
+    "cdna_change": "c.2085G>T",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4860109",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.1377A>G (p.Ser459=)",
+    "cdna_change": "c.1377A>G",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4860097",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.1266C>A (p.Gly422=)",
+    "cdna_change": "c.1266C>A",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4856878",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.1039-1013G>A",
+    "cdna_change": "NM_000249.4(MLH1):c.1039-1013G>A",
+    "classification": "Uncertain significance",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4852684",
+    "gene": "MLH1",
+    "hgvs_name": "NM_000249.4(MLH1):c.884+5T>A",
+    "cdna_change": "NM_000249.4(MLH1):c.884+5T>A",
+    "classification": "Uncertain significance",
+    "review_status": "no assertion criteria provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4887749",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.2909-2A>G",
+    "cdna_change": "NM_000492.4(CFTR):c.2909-2A>G",
+    "classification": "Likely pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4884747",
+    "gene": "AASS",
+    "hgvs_name": "GRCh37/hg19 7q31.2-32.2(chr7:116255056-129694097)x3",
+    "cdna_change": "GRCh37/hg19 7q31.2-32.2(chr7:116255056-129694097)x3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4884743",
+    "gene": "AASS",
+    "hgvs_name": "GRCh37/hg19 7q21.12-36.3(chr7:88192865-159128556)x3",
+    "cdna_change": "GRCh37/hg19 7q21.12-36.3(chr7:88192865-159128556)x3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4880500",
+    "gene": "CFTR",
+    "hgvs_name": "GRCh38/hg38 7q31.2(chr7:117642438-117642593)x3",
+    "cdna_change": "GRCh38/hg38 7q31.2(chr7:117642438-117642593)x3",
+    "classification": "Likely pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4879403",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.2620-10_2621del",
+    "cdna_change": "NM_000492.4(CFTR):c.2620-10_2621del",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4879381",
+    "gene": "IFRD1",
+    "hgvs_name": "GRCh37/hg19 7q31.1-31.31(chr7:109516655-120492422)x1",
+    "cdna_change": "GRCh37/hg19 7q31.1-31.31(chr7:109516655-120492422)x1",
+    "classification": "not provided",
+    "review_status": "no classification provided",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4854650",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.3123dup (p.Gln1042fs)",
+    "cdna_change": "c.3123dup",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4854625",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.44T>G (p.Leu15Arg)",
+    "cdna_change": "c.44T>G",
+    "classification": "Likely pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4851205",
+    "gene": "CFTR",
+    "hgvs_name": "GRCh37/hg19 7q31.2(chr7:117141950-117159386)x1",
+    "cdna_change": "GRCh37/hg19 7q31.2(chr7:117141950-117159386)x1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4849019",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.200C>G (p.Pro67Arg)",
+    "cdna_change": "c.200C>G",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4848972",
+    "gene": "CFTR",
+    "hgvs_name": "NC_000007.13:g.(117254768_117267575)_(117292986_117304741)del",
+    "cdna_change": "NC_000007.13:g.(117254768_117267575)_(117292986_117304741)del",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4848806",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.3384del (p.Val1129fs)",
+    "cdna_change": "c.3384del",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4847466",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.3161A>G (p.His1054Arg)",
+    "cdna_change": "c.3161A>G",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4847271",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.3407C>A (p.Ala1136Asp)",
+    "cdna_change": "c.3407C>A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4847260",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.3142A>G (p.Arg1048Gly)",
+    "cdna_change": "c.3142A>G",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4887648",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.2908+4C>T",
+    "cdna_change": "NM_000492.4(CFTR):c.2908+4C>T",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4887624",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.4136+5G>T",
+    "cdna_change": "NM_000492.4(CFTR):c.4136+5G>T",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4868865",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.486G>A (p.Lys162=)",
+    "cdna_change": "c.486G>A",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4868863",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.2367A>T (p.Ala789=)",
+    "cdna_change": "c.2367A>T",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4868860",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.969T>C (p.Leu323=)",
+    "cdna_change": "c.969T>C",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4868857",
+    "gene": "CFTR-AS2",
+    "hgvs_name": "NM_000492.4(CFTR):c.2943A>G (p.Ala981=)",
+    "cdna_change": "c.2943A>G",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4868854",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.465T>C (p.Ala155=)",
+    "cdna_change": "c.465T>C",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4868852",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.3778C>T (p.Leu1260=)",
+    "cdna_change": "c.3778C>T",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4868851",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.3879A>T (p.Val1293=)",
+    "cdna_change": "c.3879A>T",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4868849",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.2355A>G (p.Arg785=)",
+    "cdna_change": "c.2355A>G",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4868848",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.4014C>G (p.Val1338=)",
+    "cdna_change": "c.4014C>G",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4868842",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.1002G>T (p.Arg334=)",
+    "cdna_change": "c.1002G>T",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4868840",
+    "gene": "CFTR-AS1",
+    "hgvs_name": "NM_000492.4(CFTR):c.1317T>A (p.Pro439=)",
+    "cdna_change": "c.1317T>A",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4868838",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.837A>G (p.Glu279=)",
+    "cdna_change": "c.837A>G",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  },
+  {
+    "variation_id": "4868835",
+    "gene": "CFTR",
+    "hgvs_name": "NM_000492.4(CFTR):c.1251C>T (p.Asn417=)",
+    "cdna_change": "c.1251C>T",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "submitters": 1
+  }
+]
