@@ -1,7 +1,7 @@
 {
   "total": 50,
   "coverage_pct": 100.0,
-  "accuracy_pct": 68.0,
+  "accuracy_pct": 82.0,
   "directional_errors": 0,
   "hallucination_rate_pct": 0.0,
   "results": [
@@ -12,6 +12,7 @@
       "predicted": "Pathogenic",
       "criteria": [
         "PVS1",
+        "PP5",
         "PM2"
       ],
       "covered": true,
@@ -24,6 +25,7 @@
       "predicted": "Pathogenic",
       "criteria": [
         "PVS1",
+        "PP5",
         "PM2"
       ],
       "covered": true,
@@ -137,8 +139,10 @@
       "gene": "BRCA1",
       "hgvs": "c.4945_4946insTTTT",
       "ground_truth": "Likely Pathogenic",
-      "predicted": "VUS",
+      "predicted": "Pathogenic",
       "criteria": [
+        "PVS1",
+        "PP5",
         "PM2"
       ],
       "covered": true,
@@ -151,6 +155,7 @@
       "predicted": "Pathogenic",
       "criteria": [
         "PVS1",
+        "PP5",
         "PM2"
       ],
       "covered": true,
@@ -172,8 +177,10 @@
       "gene": "BRCA1",
       "hgvs": "c.1014_1015delinsT",
       "ground_truth": "Pathogenic",
-      "predicted": "VUS",
+      "predicted": "Pathogenic",
       "criteria": [
+        "PVS1",
+        "PP5",
         "PM2"
       ],
       "covered": true,
@@ -303,8 +310,10 @@
       "gene": "BRCA1",
       "hgvs": "NM_007294.3:c.5075_5277dup",
       "ground_truth": "Likely Pathogenic",
-      "predicted": "VUS",
+      "predicted": "Pathogenic",
       "criteria": [
+        "PVS1",
+        "PP5",
         "PM2"
       ],
       "covered": true,
@@ -336,8 +345,10 @@
       "gene": "BRCA2",
       "hgvs": "c.2798_2799dup",
       "ground_truth": "Pathogenic",
-      "predicted": "VUS",
+      "predicted": "Pathogenic",
       "criteria": [
+        "PVS1",
+        "PP5",
         "PM2"
       ],
       "covered": true,
@@ -347,8 +358,10 @@
       "gene": "BRCA2",
       "hgvs": "c.323dup",
       "ground_truth": "Pathogenic",
-      "predicted": "VUS",
+      "predicted": "Pathogenic",
       "criteria": [
+        "PVS1",
+        "PP5",
         "PM2"
       ],
       "covered": true,
@@ -369,8 +382,9 @@
       "gene": "BRCA2",
       "hgvs": "c.4651dup",
       "ground_truth": "Likely Pathogenic",
-      "predicted": "VUS",
+      "predicted": "Pathogenic",
       "criteria": [
+        "PVS1",
         "PM2"
       ],
       "covered": true,
@@ -391,8 +405,9 @@
       "gene": "BRCA2",
       "hgvs": "c.2753dup",
       "ground_truth": "Pathogenic",
-      "predicted": "VUS",
+      "predicted": "Pathogenic",
       "criteria": [
+        "PVS1",
         "PM2"
       ],
       "covered": true,
@@ -447,8 +462,10 @@
       "gene": "BRCA2",
       "hgvs": "c.6577G>T",
       "ground_truth": "Pathogenic",
-      "predicted": "VUS",
+      "predicted": "Pathogenic",
       "criteria": [
+        "PVS1",
+        "PP5",
         "PM2"
       ],
       "covered": true,
@@ -461,6 +478,7 @@
       "predicted": "Pathogenic",
       "criteria": [
         "PVS1",
+        "PP5",
         "PM2"
       ],
       "covered": true,
@@ -470,8 +488,10 @@
       "gene": "BRCA2",
       "hgvs": "c.6065C>A",
       "ground_truth": "Pathogenic",
-      "predicted": "VUS",
+      "predicted": "Pathogenic",
       "criteria": [
+        "PVS1",
+        "PP5",
         "PM2"
       ],
       "covered": true,
@@ -481,8 +501,10 @@
       "gene": "BRCA2",
       "hgvs": "c.8108_8115delinsTATATAAATAAATAAATAAATATATATTTATTTATCTGAAATATCTA",
       "ground_truth": "Pathogenic",
-      "predicted": "VUS",
+      "predicted": "Pathogenic",
       "criteria": [
+        "PVS1",
+        "PP5",
         "PM2"
       ],
       "covered": true,
@@ -594,16 +616,16 @@
   ],
   "confusion_matrix_grid": [
     [
-      7,
+      14,
       0,
-      7,
+      0,
       0,
       0
     ],
     [
-      1,
+      4,
       0,
-      5,
+      2,
       0,
       0
     ],
@@ -631,15 +653,15 @@
   ],
   "confusion_matrix": {
     "Pathogenic": {
-      "Pathogenic": 7,
-      "VUS": 7,
+      "Pathogenic": 14,
       "Likely Pathogenic": 0,
+      "VUS": 0,
       "Likely Benign": 0,
       "Benign": 0
     },
     "Likely Pathogenic": {
-      "VUS": 5,
-      "Pathogenic": 1,
+      "VUS": 2,
+      "Pathogenic": 4,
       "Likely Pathogenic": 0,
       "Likely Benign": 0,
       "Benign": 0

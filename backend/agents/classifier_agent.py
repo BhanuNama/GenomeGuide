@@ -73,15 +73,22 @@ def _evaluate_criteria(state: GenomeGuideState) -> tuple[list, dict]:
     # -----------------------------------------------------------------------
     # PS3 / PP5 — Established in ClinVar with strong review status
     # -----------------------------------------------------------------------
-    if cv_found and star_rating >= 2 and submitters >= 2 and not conflicting:
-        if "pathogenic" in cv_class:
-            triggered.append("PS3")
-            details["PS3"] = (
-                f"ClinVar classification: '{clinvar.get('classification')}' with {submitters} "
-                f"independent submitters and review status '{clinvar.get('review_status')}' "
-                f"({star_rating}★). Multiple laboratories agree."
-            )
-        elif cv_class in ("likely pathogenic",):
+    if cv_found and not conflicting:
+        if star_rating >= 2 and submitters >= 2:
+            if "pathogenic" in cv_class and "likely" not in cv_class:
+                triggered.append("PS3")
+                details["PS3"] = (
+                    f"ClinVar classification: '{clinvar.get('classification')}' with {submitters} "
+                    f"independent submitters and review status '{clinvar.get('review_status')}' "
+                    f"({star_rating}★). Multiple laboratories agree."
+                )
+            elif "likely pathogenic" in cv_class or "pathogenic" in cv_class:
+                triggered.append("PP5")
+                details["PP5"] = (
+                    f"ClinVar: '{clinvar.get('classification')}' ({submitters} submitters, "
+                    f"{star_rating}★, no conflicts). Reputable source classification."
+                )
+        elif star_rating >= 1 and ("pathogenic" in cv_class or "likely pathogenic" in cv_class):
             triggered.append("PP5")
             details["PP5"] = (
                 f"ClinVar: '{clinvar.get('classification')}' ({submitters} submitters, "
@@ -130,19 +137,19 @@ def _compute_classification(triggered: list, clinvar, gnomad) -> tuple[str, str]
     if "BA1" in triggered:
         return "Benign", "High"
 
-    # Rule 2: PVS1 + PM2 → Pathogenic
-    if "PVS1" in triggered and "PM2" in triggered:
+    # Rule 2: PVS1 + (PM2 or PP5 or PS3) → Pathogenic
+    if "PVS1" in triggered and ("PM2" in triggered or "PP5" in triggered or "PS3" in triggered):
         return "Pathogenic", "High"
 
     # Rule 3: PVS1 alone → Likely Pathogenic
     if "PVS1" in triggered:
         return "Likely Pathogenic", "Moderate"
 
-    # Rule 4: PS3 (strong ClinVar agreement) → match ClinVar
-    if "PS3" in triggered and star_rating >= 2:
+    # Rule 4: PS3 (strong ClinVar agreement) → Pathogenic
+    if "PS3" in triggered:
         return "Pathogenic", "High"
 
-    # Rule 5: PP5 (ClinVar Likely Pathogenic, multiple submitters)
+    # Rule 5: PP5 (ClinVar Likely Pathogenic/reputable source)
     if "PP5" in triggered:
         return "Likely Pathogenic", "Moderate"
 

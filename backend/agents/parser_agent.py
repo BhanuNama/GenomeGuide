@@ -97,12 +97,31 @@ def _classify_variant_type(hgvs_c: str, hgvs_p: Optional[str]) -> str:
         return "splice"
 
     if "delins" in c or "del" in c and "ins" in c:
+        m = re.search(r'(\d+)_(\d+)delins([a-z]+)', c)
+        if m:
+            del_len = int(m.group(2)) - int(m.group(1)) + 1
+            ins_len = len(m.group(3))
+            if abs(ins_len - del_len) % 3 != 0:
+                return "frameshift"
         return "indel"
 
     if "dup" in c:
+        m = re.search(r'(\d+)_(\d+)dup', c)
+        if m:
+            length = int(m.group(2)) - int(m.group(1)) + 1
+            if length % 3 != 0:
+                return "frameshift"
+        if re.search(r'c\.\d+dup', c):
+            return "frameshift"
+        m_seq = re.search(r'dup([a-z]+)', c)
+        if m_seq and len(m_seq.group(1)) % 3 != 0:
+            return "frameshift"
         return "duplication"
 
     if "ins" in c and "del" not in c:
+        m = re.search(r'ins([a-z]+)', c)
+        if m and len(m.group(1)) % 3 != 0:
+            return "frameshift"
         return "insertion"
 
     if "del" in c:
@@ -113,7 +132,7 @@ def _classify_variant_type(hgvs_c: str, hgvs_p: Optional[str]) -> str:
             if length % 3 != 0:
                 return "frameshift"
         # Single base deletion is also frameshift
-        if re.search(r'c\.\d+del[acgt]$', c):
+        if re.search(r'c\.\d+del[acgt]?$', c):
             return "frameshift"
         return "deletion"
 

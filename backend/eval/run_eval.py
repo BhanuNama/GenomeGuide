@@ -60,19 +60,49 @@ def is_directional_error(predicted: str, ground_truth: str) -> bool:
     )
 
 
-def infer_variant_type(hgvs_c: str) -> str:
+def infer_variant_type(hgvs_c: str, hgvs_p: str = None) -> str:
+    if hgvs_p:
+        p_low = hgvs_p.lower()
+        if any(x in p_low for x in ("ter", "*", "stop")):
+            return "nonsense"
+        if "fs" in p_low:
+            return "frameshift"
+
     c = hgvs_c.lower()
     if "delins" in c or "indel" in c:
+        m = re.search(r"c\.(\d+)_(\d+)delins([a-z]+)", c)
+        if m:
+            del_len = int(m.group(2)) - int(m.group(1)) + 1
+            ins_len = len(m.group(3))
+            if abs(ins_len - del_len) % 3 != 0:
+                return "frameshift"
         return "indel"
+    if "dup" in c:
+        m = re.search(r"c\.(\d+)_(\d+)dup", c)
+        if m:
+            length = int(m.group(2)) - int(m.group(1)) + 1
+            if length % 3 != 0:
+                return "frameshift"
+        if re.search(r"c\.\d+dup", c):
+            return "frameshift"
+        m_seq = re.search(r"dup([a-z]+)", c)
+        if m_seq and len(m_seq.group(1)) % 3 != 0:
+            return "frameshift"
+        return "duplication"
+    if "ins" in c:
+        m = re.search(r"ins([a-z]+)", c)
+        if m and len(m.group(1)) % 3 != 0:
+            return "frameshift"
+        return "insertion"
     if "del" in c:
         # Check if frameshift (e.g. deletion length not divisible by 3)
         m = re.search(r"c\.(\d+)_(\d+)del", c)
         if m:
             length = int(m.group(2)) - int(m.group(1)) + 1
             return "frameshift" if length % 3 != 0 else "deletion"
+        if re.search(r"c\.\d+del", c):
+            return "frameshift"
         return "frameshift" if "del" in c and ("fs" in c or not re.search(r"del[atcg]{3}$", c)) else "deletion"
-    if "ins" in c or "dup" in c:
-        return "insertion"
     if ">" in c:
         return "substitution"
     return "substitution"
@@ -86,6 +116,11 @@ async def evaluate_variant(test_case: dict, client: httpx.AsyncClient) -> dict:
     variation_id     = test_case.get("variation_id")
     ground_truth_raw = test_case["classification"]
     ground_truth     = normalise(ground_truth_raw)
+
+    hgvs_p = None
+    m_p = re.search(r"\(p\.([^)]+)\)", test_case.get("hgvs_name", ""))
+    if m_p:
+        hgvs_p = f"p.{m_p.group(1)}"
 
     clinvar_result = None
     rsid = None
@@ -109,14 +144,14 @@ async def evaluate_variant(test_case: dict, client: httpx.AsyncClient) -> dict:
         (gnomad_result  and gnomad_result.get("found"))
     )
 
-    vtype = infer_variant_type(hgvs_c)
+    vtype = infer_variant_type(hgvs_c, hgvs_p)
 
     state = {
         "raw_variant_input": f"{gene} {hgvs_c}",
         "parsed": {
             "gene": gene,
             "hgvs_c": hgvs_c,
-            "hgvs_p": None,
+            "hgvs_p": hgvs_p,
             "variant_type": vtype,
         },
         "clinvar_result": clinvar_result,
